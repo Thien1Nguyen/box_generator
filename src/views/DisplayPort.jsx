@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import BoxGenerator from '../components/BoxGenerator'
 import BoxForm from '../components/BoxForm'
-import userEvent from '@testing-library/user-event'
 
 const DisplayPort = () => {
     const [dataList, setDataList] = useState([])
